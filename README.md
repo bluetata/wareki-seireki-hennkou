@@ -77,10 +77,15 @@ wareki-seireki-hennkou
 入力：yyyy/MM/dd、yyyy/M/d   
 出力：〇〇年MM年dd月、〇〇年M月d
 
+![](doc/source/images/output01.jpg)
+
+
 和暦から西暦へ   
 
 出力：〇〇年MM年dd月、〇〇年M月d   
 入力：yyyy/MM/dd、yyyy/M/d
+
+![](doc/source/images/output02.jpg)
 
 
 ## ライセンス
