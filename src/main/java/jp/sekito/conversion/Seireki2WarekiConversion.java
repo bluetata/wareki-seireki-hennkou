@@ -1,5 +1,4 @@
-package jp.sekito.seireki;
-
+package jp.sekito.conversion;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -12,7 +11,7 @@ import java.util.List;
  *
  * @date     12/20/2018 19:10
  * @version  version(1.0)</br>
- * @author   bluetata / Sekito.Lv@gmail.com</br>
+ * @author   bluetata(Sekito.Lv) / Sekito.Lv@gmail.com</br>
  * @since    JDK 1.8</br>
  *
  */
@@ -174,14 +173,14 @@ public class Seireki2WarekiConversion {
             // 正常の場合、西暦変換（正規表現）
             if (seireki2WarekiConversion.checkDate(d)) {
                 // 西暦変換
-                // 文字を分割する。	Spilit
+                // 文字を分割する。Spilitメソッドを使う
                 sDay = d.split("/", 0);
 
                 // 文字列を日付に変換する
                 LocalDateTime ldt = LocalDateTime.of(Integer.parseInt(sDay[0]), Integer.parseInt(sDay[1]), Integer.parseInt(sDay[2]), 0, 0, 0);
 
                 // 西暦変換する。
-                System.out.println(seireki2WarekiConversion.warekiConversionApater(ldt));
+                System.out.println(d + " → " + seireki2WarekiConversion.warekiConversionApater(ldt));
             }
 
         }

@@ -1,4 +1,4 @@
-package jp.sekito.seireki;
+package jp.sekito.conversion;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @date     12/20/2018 19:10
  * @version  version(1.0)</br>
- * @author   bluetata / Sekito.Lv@gmail.com</br>
+ * @author   bluetata(Sekito.Lv) / Sekito.Lv@gmail.com</br>
  * @since    JDK 1.8</br>
  */
 public class Wareki2SeirekiConversion {
@@ -230,7 +230,7 @@ public class Wareki2SeirekiConversion {
             if (wareki2SeirekiConversion.checkDate(d)) {
 
                 // 和暦変換する。
-                System.out.println(wareki2SeirekiConversion.seirekiConversionApater(d));
+                System.out.println(d + " → " + wareki2SeirekiConversion.seirekiConversionApater(d));
             }
 
         }
