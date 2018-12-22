@@ -90,6 +90,7 @@ wareki-seireki-hennkou
 
 ## ライセンス
 
+Licensed under the [MIT](LICENSE) License.
 
 
 ## 作者
