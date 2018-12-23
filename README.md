@@ -62,6 +62,8 @@ wareki-seireki-hennkou
 * （西暦 → 明治） "明治" = "西暦" – 1867   
 
 
+### 西暦から和暦に変換する方法
+
 【西暦への変換式】   
 * （德仁 → 西暦） "西暦" = "德仁" + 2019   
 * （平成 → 西暦） "西暦" = "平成" + 1988   
@@ -83,8 +85,8 @@ wareki-seireki-hennkou
 
 和暦から西暦へ   
 
-出力：〇〇年MM年dd月、〇〇年M月d   
-入力：yyyy/MM/dd、yyyy/M/d
+入力：〇〇年MM年dd月、〇〇年M月d   
+出力：yyyy/MM/dd、yyyy/M/d
 
 ![](doc/source/images/output02.png)
 
