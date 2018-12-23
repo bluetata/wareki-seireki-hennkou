@@ -1,8 +1,8 @@
-# 和暦と西暦の双方向変換
+# Conversion between the Japanese Calendar and the Western Calendar
 
-*Read this in other languages:[中文](README-cn.md), [日本語](README.md).*
+*Read this in other languages: [中文](README-cn.md), [日本語](README.md).*
 
-## 概要
+## Intro
 
 ２０１９年４月３０日には天皇が退位され、翌５月１日に皇太子さまが即位、新元号が
 適用される。３０年４カ月で幕を閉じることになる平成という。   
@@ -10,7 +10,7 @@
 西暦の双方向変換をサポートする簡単な方法（新元号・德仁（暫定）を含む）。
 
 
-## 機能
+## Function
 
 ``` lua
 wareki-seireki-hennkou
@@ -42,7 +42,7 @@ wareki-seireki-hennkou
 ```
 
 
-## 変換する方法
+## Converting method
 
 年号の区間：   
 明治: 1868年01月01日 ～ 1912年07月29日   
@@ -52,7 +52,7 @@ wareki-seireki-hennkou
 德仁: 1989年05月01日 ～
 
 
-### 和暦から西暦に変換する方法
+### Conversion between the Japanese Calendar and the Western Calendar
 
 【和暦への変換式】
 * （西暦 → 新元号・德仁（暫定）） "德仁" = "西暦" – 2019   
@@ -61,6 +61,8 @@ wareki-seireki-hennkou
 * （西暦 → 大正） "大正" = "西暦" – 1911   
 * （西暦 → 明治） "明治" = "西暦" – 1867   
 
+
+### 西暦から和暦に変換する方法
 
 【西暦への変換式】   
 * （德仁 → 西暦） "西暦" = "德仁" + 2019   
@@ -71,29 +73,29 @@ wareki-seireki-hennkou
 
 
 
-### 和暦・西暦へのフォーマット
+### Format of the Japanese Calendar and the Western Calendar
 
 西暦から和暦へ   
 
-入力：yyyy/MM/dd、yyyy/M/d   
-出力：〇〇年MM年dd月、〇〇年M月d
+Input ：yyyy/MM/dd、yyyy/M/d   
+Output：〇〇年MM年dd月、〇〇年M月d
 
 ![](doc/source/images/output01.png)
 
 
 和暦から西暦へ   
 
-出力：〇〇年MM年dd月、〇〇年M月d   
-入力：yyyy/MM/dd、yyyy/M/d
+Input ：〇〇年MM年dd月、〇〇年M月d   
+Output：yyyy/MM/dd、yyyy/M/d
 
 ![](doc/source/images/output02.png)
 
 
-## ライセンス
+## License
 
 Licensed under the [MIT](LICENSE) License.
 
 
-## 作者
+## Author
 
 Sekito.Lv(bluetata) <sekito.lv@gmail.com>

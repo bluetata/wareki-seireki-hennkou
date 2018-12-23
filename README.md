@@ -1,6 +1,6 @@
 # 和暦と西暦の双方向変換
 
-*その他の言語:[中文](README-cn.md)、[English](README-en.md).*
+*その他の言語：[中文](README-cn.md)、[English](README-en.md).*
 
 ## 概要
 
