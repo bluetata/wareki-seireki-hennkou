@@ -1,6 +1,9 @@
 # 和暦と西暦の双方向変換
 
-*その他の言語：[中文](README-cn.md)、[English](README-en.md).*
+*その他の言語：[中文](README-cn.md)、[English](README-en.md).*   
+
+Java バージョン：[java-version](/java-version/src/main/java/jp/ekito/conversion)
+VB   バージョン：[vb-version](/vb-version/conversion)
 
 ## 概要
 
