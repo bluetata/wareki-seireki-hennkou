@@ -5,6 +5,7 @@
 Java version: [java-version](/java-version/src/main/java/jp/sekito/conversion)   
 VB   version: [vb-version](/vb-version/conversion)
 
+
 ## Intro
 
 ２０１９年４月３０日には天皇が退位され、翌５月１日に皇太子さまが即位、新元号が
@@ -92,6 +93,10 @@ Input ：〇〇年MM年dd月、〇〇年M月d
 Output：yyyy/MM/dd、yyyy/M/d
 
 ![](doc/source/images/output02.png)
+
+
+### Output image of VB version
+![](doc/source/images/vb-output01.png)
 
 
 ## License

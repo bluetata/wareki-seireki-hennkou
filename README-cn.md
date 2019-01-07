@@ -94,6 +94,10 @@ wareki-seireki-hennkou
 ![](doc/source/images/output02.png)
 
 
+### VB版本输出图
+![](doc/source/images/vb-output01.png)
+
+
 ## 授权许可
 
 Licensed under the [MIT](LICENSE) License.
