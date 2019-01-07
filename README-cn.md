@@ -2,6 +2,10 @@
 
 阅读本文的其他语言版本：[日本語](README.md)、[English](README-en.md)
 
+Java 版本：[java-version](/java-version/src/main/java/jp/sekito/conversion)   
+VB   版本：[vb-version](/vb-version/conversion)
+
+
 ## 概要
 
 日本天皇于2019年4月30日即将退位，其皇子将于5月1日继位，30年零4个月的【平成】元号即将落幕。

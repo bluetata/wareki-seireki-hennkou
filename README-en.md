@@ -2,6 +2,9 @@
 
 *Read this in other languages: [中文](README-cn.md), [日本語](README.md).*
 
+Java version: [java-version](/java-version/src/main/java/jp/sekito/conversion)   
+VB   version: [vb-version](/vb-version/conversion)
+
 ## Intro
 
 ２０１９年４月３０日には天皇が退位され、翌５月１日に皇太子さまが即位、新元号が

@@ -2,8 +2,9 @@
 
 *その他の言語：[中文](README-cn.md)、[English](README-en.md).*   
 
-Java バージョン：[java-version](/java-version/src/main/java/jp/ekito/conversion)
+Java バージョン：[java-version](/java-version/src/main/java/jp/sekito/conversion)   
 VB   バージョン：[vb-version](/vb-version/conversion)
+
 
 ## 概要
 
