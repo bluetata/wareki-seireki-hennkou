@@ -27,10 +27,11 @@
 ' Version : version(1.0)</br>
 ' Author  : bluetata(Sekito.Lv) / Sekito.Lv@gmail.com</br>
 '================================================================================
-Public Class Seireki2WarekiConversion
+Module Seireki2WarekiConversion
+
 
     ' 西暦から和暦に変換する方法
-    Public Shared Function WarekiConversionApater(ByVal d1 As System.DateTime)
+    Public Function WarekiConversionApater(ByVal d1 As System.DateTime)
 
         ' 文字列を日付に返す
         Dim strDay As String
@@ -128,12 +129,12 @@ Public Class Seireki2WarekiConversion
     End Function
 
 
-    Public Shared Function IsDateAfter(ByVal d1 As Date, ByVal d2 As Date) As Boolean
+    Public Function IsDateAfter(ByVal d1 As Date, ByVal d2 As Date) As Boolean
         Return CDate(d1) > CDate(d2)
     End Function
 
     ' Checks if this date-time d1 is before the specified date-time d2.
-    Public Shared Function IsDatetimeBefore(ByVal d1 As System.DateTime, ByVal d2 As System.DateTime) As Boolean
+    Public Function IsDatetimeBefore(ByVal d1 As System.DateTime, ByVal d2 As System.DateTime) As Boolean
         If System.DateTime.Compare(d1, d2) < 0 Then
             Return True
         Else
@@ -143,7 +144,7 @@ Public Class Seireki2WarekiConversion
 
 
     ' Checks if this date-time d1 is after the specified date-time d2.
-    Public Shared Function IsDatetimeAfter(ByVal d1 As System.DateTime, ByVal d2 As System.DateTime) As Boolean
+    Public Function IsDatetimeAfter(ByVal d1 As System.DateTime, ByVal d2 As System.DateTime) As Boolean
         If System.DateTime.Compare(d1, d2) > 0 Then
             Return True
         Else
@@ -153,7 +154,7 @@ Public Class Seireki2WarekiConversion
 
 
     ' メインテスト
-    Public Shared Sub Main()
+    Sub Main()
 
         'Dim d1 As New Date(1993, 5, 31)
         'Dim d2 As New Date(1993, 5, 30)
@@ -194,4 +195,4 @@ Public Class Seireki2WarekiConversion
 
     End Sub
 
-End Class
+End Module

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "conversion", "conversion\conversion.vbproj", "{39854A21-8400-412D-A3AD-CBF9A21D2DCB}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "conversion", "conversion\conversion.vbproj", "{868347D5-F1B7-4CFC-BFD7-128E6D580722}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{39854A21-8400-412D-A3AD-CBF9A21D2DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39854A21-8400-412D-A3AD-CBF9A21D2DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{39854A21-8400-412D-A3AD-CBF9A21D2DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{39854A21-8400-412D-A3AD-CBF9A21D2DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{868347D5-F1B7-4CFC-BFD7-128E6D580722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868347D5-F1B7-4CFC-BFD7-128E6D580722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868347D5-F1B7-4CFC-BFD7-128E6D580722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868347D5-F1B7-4CFC-BFD7-128E6D580722}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
