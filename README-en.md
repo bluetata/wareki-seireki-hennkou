@@ -2,8 +2,9 @@
 
 *Read this in other languages: [中文](README-cn.md), [日本語](README.md).*
 
-Java version: [java-version](/java-version/src/main/java/jp/sekito/conversion)   
-VB   version: [vb-version](/vb-version/conversion)
+[x] Java version: [java-version](/java-version/src/main/java/jp/sekito/conversion)   
+[x] VB   version: [vb-version](/vb-version/conversion)   
+[ ] C#   version: [csharp-version](/csharp-version/conversion) (in processing)
 
 
 ## Intro

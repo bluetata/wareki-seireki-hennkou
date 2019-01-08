@@ -2,8 +2,9 @@
 
 阅读本文的其他语言版本：[日本語](README.md)、[English](README-en.md)
 
-Java 版本：[java-version](/java-version/src/main/java/jp/sekito/conversion)   
-VB   版本：[vb-version](/vb-version/conversion)
+[x] Java 版本：[java-version](/java-version/src/main/java/jp/sekito/conversion)   
+[x] VB   版本：[vb-version](/vb-version/conversion)   
+[ ] C#   版本：[csharp-version](/csharp-version/conversion) (in processing)
 
 
 ## 概要
