@@ -72,18 +72,18 @@ public class Seireki2WarekiConversion {
      */
     public String warekiConversionApater(LocalDateTime d1) {
 
-        //文字列を日付に返す
+        // 文字列を日付に返す
         String strDay = "";
         int iYear;
 
-        //西暦を返還する（明治編）
+        // 西暦を返還する（明治編）
         if (d1.isAfter(LocalDateTime.of(1868, 1, 24, 23, 59)) &&
                 d1.isBefore(LocalDateTime.of(1912, 7, 30, 0, 0))) {
 
-            //西暦から和暦に変換する
+            // 西暦から和暦に変換する
             iYear = d1.getYear() - 1867;
 
-            //日付を返す
+            // 日付を返す
             if (iYear == 1) {
                 strDay = "明治元年" + d1.getMonthValue() + "月" + d1.getDayOfMonth() + "日";
             } else {
@@ -114,10 +114,10 @@ public class Seireki2WarekiConversion {
         if (d1.isAfter(LocalDateTime.of(1926, 12, 24, 23, 59)) &&
                 d1.isBefore(LocalDateTime.of(1989, 1, 8, 0, 0))) {
 
-            //西暦から和暦に変換する
+            // 西暦から和暦に変換する
             iYear = d1.getYear() - 1925;
 
-            //日付を返す
+            // 日付を返す
             if (iYear == 1) {
                 strDay = "昭和元年" + d1.getMonthValue() + "月" + d1.getDayOfMonth() + "日";
             } else {
@@ -147,10 +147,10 @@ public class Seireki2WarekiConversion {
         // 西暦を変換する（新元号・德仁（暫定））
         if (d1.isAfter(LocalDateTime.of(2019, 4, 30, 23, 59))) {
 
-            //西暦から和暦に変換する
+            // 西暦から和暦に変換する
             iYear = d1.getYear() - 2019;
 
-            //日付を返す
+            // 日付を返す
             if (iYear == 0) {
                 strDay = "新元号・德仁（暫定）元年" + d1.getMonthValue() + "月" + d1.getDayOfMonth() + "日";
             } else {
@@ -180,13 +180,13 @@ public class Seireki2WarekiConversion {
         testList.add("2018/12/05");
         testList.add("2018/02/05");
         testList.add("2018/2/5");
-        testList.add("2019/05/01"); // 新元号
+        testList.add("2019/05/01");  // 新元号
 
-        testList.add("1868/11/30"); // 明治
-        testList.add("1988/12/27"); // 昭和
-        testList.add("1990/02/05"); // 平成
+        testList.add("1868/11/30");  // 明治
+        testList.add("1988/12/27");  // 昭和
+        testList.add("1990/02/05");  // 平成
 
-        testList.add("2018/02/30"); // 異常テストデータ
+        testList.add("2018/02/30");  // 異常テストデータ
 
 
         for (String d : testList) {

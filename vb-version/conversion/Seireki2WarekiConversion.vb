@@ -68,14 +68,14 @@
             Return strDay
         End If
 
-        '  西暦を返還する（大正編）
+        ' 西暦を返還する（大正編）
         If (IsDatetimeAfter(d1, New System.DateTime(1912, 7, 29, 23, 59, 0)) And
                 IsDatetimeBefore(d1, New System.DateTime(1926, 12, 25, 0, 0, 0))) Then
 
-            '  西暦から和暦に変換する
+            ' 西暦から和暦に変換する
             iYear = d1.Year - 1911
 
-            '  日付を返す
+            ' 日付を返す
             If (iYear = 1) Then
                 strDay = String.Concat("大正元年", d1.Month, "月", +d1.Day, "日")
             Else
@@ -85,7 +85,7 @@
             Return strDay
         End If
 
-        '  西暦を返還する（昭和編）
+        ' 西暦を返還する（昭和編）
         If (IsDatetimeAfter(d1, New System.DateTime(1926, 12, 24, 23, 59, 0)) And
                 IsDatetimeBefore(d1, New System.DateTime(1989, 1, 8, 0, 0, 0))) Then
 
@@ -102,7 +102,7 @@
             Return strDay
         End If
 
-        '  西暦を変換する（平成編）
+        ' 西暦を変換する（平成編）
         If (IsDatetimeAfter(d1, New System.DateTime(1989, 1, 7, 23, 59, 0)) And
                 IsDatetimeBefore(d1, New System.DateTime(2019, 5, 1, 0, 0, 0))) Then
 
@@ -119,7 +119,7 @@
             Return strDay
         End If
 
-        '  西暦を変換する（新元号・德仁（暫定））
+        ' 西暦を変換する（新元号・德仁（暫定））
         If (IsDatetimeAfter(d1, New System.DateTime(2019, 4, 30, 23, 59, 0))) Then
 
             ' 西暦から和暦に変換する
@@ -135,7 +135,7 @@
             Return strDay
         End If
 
-        '  それ以外
+        ' それ以外
         strDay = "和暦は明治・大正・昭和・平成・德仁のみ対応しております"
 
         Return strDay
