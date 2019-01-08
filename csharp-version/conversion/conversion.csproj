@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{46096A0C-4C7A-42D8-8A4C-E5FC9F5FEB59}</ProjectGuid>
+    <ProjectGuid>{8F53D77D-75DD-4C91-9232-050242F5578F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>csharp_version</RootNamespace>
-    <AssemblyName>csharp-version</AssemblyName>
+    <RootNamespace>conversion</RootNamespace>
+    <AssemblyName>conversion</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

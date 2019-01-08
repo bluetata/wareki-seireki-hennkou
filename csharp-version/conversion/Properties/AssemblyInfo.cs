@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("csharp-version")]
+[assembly: AssemblyTitle("conversion")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("IBM")]
-[assembly: AssemblyProduct("csharp-version")]
+[assembly: AssemblyProduct("conversion")]
 [assembly: AssemblyCopyright("Copyright © IBM 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("46096a0c-4c7a-42d8-8a4c-e5fc9f5feb59")]
+[assembly: Guid("8f53d77d-75dd-4c91-9232-050242f5578f")]
 
 // Version information for an assembly consists of the following four values:
 //
