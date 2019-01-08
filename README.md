@@ -3,8 +3,8 @@
 *その他の言語：[中文](README-cn.md)、[English](README-en.md).*   
 
 Java バージョン：[java-version](/java-version/src/main/java/jp/sekito/conversion)   
-VB   バージョン：[vb-version](/vb-version/conversion)
-C#   バージョン：[vb-version](/csharp-version/conversion)
+VB   バージョン：[vb-version](/vb-version/conversion)   
+C#   バージョン：[csharp-version](/csharp-version/conversion)
 
 ## 概要
 
