@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/csharp-version/csharp-version.iml" filepath="$PROJECT_DIR$/csharp-version/csharp-version.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-version/java-version.iml" filepath="$PROJECT_DIR$/java-version/java-version.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vb-version/vb-version.iml" filepath="$PROJECT_DIR$/vb-version/vb-version.iml" />
       <module fileurl="file://$PROJECT_DIR$/wareki-seireki-hennkou.iml" filepath="$PROJECT_DIR$/wareki-seireki-hennkou.iml" />
     </modules>
   </component>
