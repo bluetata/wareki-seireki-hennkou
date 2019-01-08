@@ -48,7 +48,7 @@ wareki-seireki-hennkou
 
 ## Converting method
 
-年号の区間：   
+Japanese era name interval：   
 明治: 1868年01月01日 ～ 1912年07月29日   
 大正: 1912年07月30日 ～ 1926年12月24日   
 昭和: 1926年12月25日 ～ 1989年01月07日   
@@ -56,7 +56,7 @@ wareki-seireki-hennkou
 德仁: 1989年05月01日 ～
 
 
-### Conversion between the Japanese Calendar and the Western Calendar
+### Conversion of the Western Calendar to the Japanese Calendar
 
 【和暦への変換式】
 * （西暦 → 新元号・德仁（暫定）） "德仁" = "西暦" – 2019   
@@ -66,7 +66,7 @@ wareki-seireki-hennkou
 * （西暦 → 明治） "明治" = "西暦" – 1867   
 
 
-### 西暦から和暦に変換する方法
+### Conversion of the Japanese Calendar to the Western Calendar
 
 【西暦への変換式】   
 * （德仁 → 西暦） "西暦" = "德仁" + 2019   
@@ -76,10 +76,9 @@ wareki-seireki-hennkou
 * （明治 → 西暦） "西暦" = "明治" + 1867   
 
 
-
 ### Format of the Japanese Calendar and the Western Calendar
 
-西暦から和暦へ   
+Seireki to Wareki   
 
 Input ：yyyy/MM/dd、yyyy/M/d   
 Output：〇〇年MM年dd月、〇〇年M月d
@@ -87,7 +86,7 @@ Output：〇〇年MM年dd月、〇〇年M月d
 ![](doc/source/images/output01.png)
 
 
-和暦から西暦へ   
+Wareki to Seireki   
 
 Input ：〇〇年MM年dd月、〇〇年M月d   
 Output：yyyy/MM/dd、yyyy/M/d
