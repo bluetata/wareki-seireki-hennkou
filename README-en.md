@@ -21,29 +21,29 @@
 wareki-seireki-hennkou
     +
     |
-    +----src/main/java
-    |        |
-    |        +--jp.sekito.conversion
-    |               |
-    |               +--Seireki2WarekiConversion.java（西暦から和暦に変更するクラス）
-    |               |      |
-    |               |      + -- 日付形式(西暦)が正しいかどうかを判断する  checkDate()
-    |               |      + -- 期日を変えることができるかどうかを判断する  isDate()
-    |               |      + -- 西暦から和暦に変更する  warekiConversionApater()
-    |               |
-    |               +--Wareki2SeirekiConversion.java（和暦から西暦に変更するクラス）
-    |                      |
-    |                      + -- 日付形式(和暦)が正しいかどうかを判断する  checkDate()
-    |                      + -- 和暦から西暦に変更する  seirekiConversionApater()
-    |                      + -- 和暦変換(元年)  WarekigannenConversionMain()
-    |                      + -- 期日を変えることができるかどうかを判断する  isDate()
-    |                      + -- どの和暦か数値で取得する  warekiCheck()
-    |                      + -- 和暦存在チェック warekiExistenceCheck()
-    |                      + -- 和暦存在チェック（元年）warekiGannenExistenceCheck()
+    +--java-version
+    |      |
+    |      +--jp.sekito.conversion
+    |             |
+    |             +--Seireki2WarekiConversion.java（西暦から和暦に変更するクラス）
+    |             |      |
+    |             |      + -- 日付形式(西暦)が正しいかどうかを判断する  checkDate()
+    |             |      + -- 期日を変えることができるかどうかを判断する  isDate()
+    |             |      + -- 西暦から和暦に変更する  warekiConversionApater()
+    |             |
+    |             +--Wareki2SeirekiConversion.java（和暦から西暦に変更するクラス）
+    |                    |
+    |                    + -- 日付形式(和暦)が正しいかどうかを判断する  checkDate()
+    |                    + -- 和暦から西暦に変更する  seirekiConversionApater()
+    |                    + -- 和暦変換(元年)  WarekigannenConversionMain()
+    |                    + -- 期日を変えることができるかどうかを判断する  isDate()
+    |                    + -- どの和暦か数値で取得する  warekiCheck()
+    |                    + -- 和暦存在チェック warekiExistenceCheck()
+    |                    + -- 和暦存在チェック（元年）warekiGannenExistenceCheck()
     |
-    +----src/resources
+    +--csharp-version
     |
-    +----src/test
+    +--vb-version
 ```
 
 
