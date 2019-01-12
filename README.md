@@ -4,7 +4,7 @@
 
 - [x] Java バージョン：[java-version](/java-version/src/main/java/jp/sekito/conversion)   
 - [x] VB   バージョン：[vb-version](/vb-version/conversion)   
-- [ ] C#   バージョン：[csharp-version](/csharp-version/conversion) (in processing)
+- [x] C#   バージョン：[csharp-version](/csharp-version/conversion)
 
 ## 概要
 
