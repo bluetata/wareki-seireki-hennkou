@@ -1,6 +1,8 @@
+*その他の言語：[中文](README-cn.md)、[English](README-en.md).*   
+
+
 # 和暦と西暦の双方向変換
 
-*その他の言語：[中文](README-cn.md)、[English](README-en.md).*   
 
 - [x] Java バージョン：[java-version](/java-version/src/main/java/jp/sekito/conversion)   
 - [x] VB   バージョン：[vb-version](/vb-version/conversion)   
@@ -106,4 +108,4 @@ Licensed under the [MIT](LICENSE) License.
 
 ## 作者
 
-Sekito.Lv(bluetata) <sekito.lv@gmail.com>
+bluetata / <sekito.lv@gmail.com>

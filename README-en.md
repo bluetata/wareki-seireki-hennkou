@@ -1,6 +1,7 @@
-# Conversion between the Japanese Calendar and the Western Calendar
-
 *Read this in other languages: [中文](README-cn.md), [日本語](README.md).*
+
+
+# Conversion between the Japanese Calendar and the Western Calendar
 
 - [x] Java version: [java-version](/java-version/src/main/java/jp/sekito/conversion)   
 - [x] VB   version: [vb-version](/vb-version/conversion)   
@@ -106,4 +107,4 @@ Licensed under the [MIT](LICENSE) License.
 
 ## Author
 
-Sekito.Lv(bluetata) <sekito.lv@gmail.com>
+bluetata / <sekito.lv@gmail.com>

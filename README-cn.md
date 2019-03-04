@@ -1,6 +1,8 @@
+*阅读本文的其他语言版本：[日本語](README.md)、[English](README-en.md)。*
+
+
 # 日本【和历】和【西历】相互转换
 
-阅读本文的其他语言版本：[日本語](README.md)、[English](README-en.md)
 
 - [x] Java 版本：[java-version](/java-version/src/main/java/jp/sekito/conversion)   
 - [x] VB   版本：[vb-version](/vb-version/conversion)   
@@ -106,4 +108,4 @@ Licensed under the [MIT](LICENSE) License.
 
 ## 作者
 
-Sekito.Lv(bluetata) <sekito.lv@gmail.com>
+bluetata / <sekito.lv@gmail.com>
