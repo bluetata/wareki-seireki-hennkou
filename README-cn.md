@@ -4,9 +4,9 @@
 # 日本【和历】和【西历】相互转换
 
 
-- [x] Java 版本：[java-version](/java-version/src/main/java/jp/sekito/conversion)   
-- [x] VB   版本：[vb-version](/vb-version/conversion)   
-- [x] C#   版本：[csharp-version](/csharp-version/conversion)
+- [x] Java&nbsp;版本：[java-version](/java-version/src/main/java/jp/sekito/conversion)   
+- [x] VB&nbsp;&nbsp;&nbsp;&nbsp;版本：[vb-version](/vb-version/conversion)   
+- [x] C#&nbsp;&nbsp;&nbsp;&nbsp;版本：[csharp-version](/csharp-version/conversion)
 
 
 ## 概要
