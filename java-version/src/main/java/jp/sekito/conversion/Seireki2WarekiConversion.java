@@ -148,10 +148,10 @@ public class Seireki2WarekiConversion {
         if (d1.isAfter(LocalDateTime.of(2019, 4, 30, 23, 59))) {
 
             // 西暦から和暦に変換する
-            iYear = d1.getYear() - 2019;
+            iYear = d1.getYear() - 2018;
 
             // 日付を返す
-            if (iYear == 0) {
+            if (iYear == 1) {
                 strDay = "新元号・德仁（暫定）元年" + d1.getMonthValue() + "月" + d1.getDayOfMonth() + "日";
             } else {
                 strDay = "新元号・德仁（暫定）" + iYear + "年" + d1.getMonthValue() + "月" + d1.getDayOfMonth() + "日";

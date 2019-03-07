@@ -139,10 +139,10 @@ namespace csharp_version
             {
 
                 // 西暦から和暦に変換する
-                iYear = d1.Year - 2019;
+                iYear = d1.Year - 2018;
 
                 // 日付を返す
-                if (iYear == 0)
+                if (iYear == 1)
                 {
                     strDay = "新元号・德仁（暫定）元年" + d1.Month + "月" + d1.Day + "日";
                 }

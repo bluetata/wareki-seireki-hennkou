@@ -109,10 +109,10 @@ Module Seireki2WarekiConversion
         If (IsDatetimeAfter(d1, New System.DateTime(2019, 4, 30, 23, 59, 0))) Then
 
             ' 西暦から和暦に変換する
-            iYear = d1.Year - 2019
+            iYear = d1.Year - 2018
 
             ' 日付を返す
-            If (iYear = 0) Then
+            If (iYear = 1) Then
                 strDay = String.Concat("新元号・德仁（暫定）元年", d1.Month, "月", d1.Day, "日")
             Else
                 strDay = String.Concat("新元号・德仁（暫定）", iYear, "年", d1.Month, "月", d1.Day + "日")
