@@ -61,7 +61,7 @@ Japanese era name interval：
 ### Conversion of the Western Calendar to the Japanese Calendar
 
 【和暦への変換式】   
-*（西暦 → 新元号・德仁（暫定）） "德仁" = "西暦" – 2019   
+*（西暦 → 新元号・德仁（暫定）） "德仁" = "西暦" – 2018   
 *（西暦 → 平成） "平成" = "西暦" – 1988   
 *（西暦 → 昭和） "昭和" = "西暦" – 1925   
 *（西暦 → 大正） "大正" = "西暦" – 1911   
@@ -71,7 +71,7 @@ Japanese era name interval：
 ### Conversion of the Japanese Calendar to the Western Calendar
 
 【西暦への変換式】   
-*（德仁 → 西暦） "西暦" = "德仁" + 2019   
+*（德仁 → 西暦） "西暦" = "德仁" + 2018   
 *（平成 → 西暦） "西暦" = "平成" + 1988   
 *（昭和 → 西暦） "西暦" = "昭和" + 1925   
 *（大正 → 西暦） "西暦" = "大正" + 1911   
