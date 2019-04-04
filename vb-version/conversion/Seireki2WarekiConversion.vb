@@ -105,7 +105,7 @@ Module Seireki2WarekiConversion
             Return strDay
         End If
 
-        ' 西暦を変換する（新元号・德仁（暫定））
+        ' 西暦を変換する（新元号・令和）
         If (IsDatetimeAfter(d1, New System.DateTime(2019, 4, 30, 23, 59, 0))) Then
 
             ' 西暦から和暦に変換する
@@ -113,16 +113,16 @@ Module Seireki2WarekiConversion
 
             ' 日付を返す
             If (iYear = 1) Then
-                strDay = String.Concat("新元号・德仁（暫定）元年", d1.Month, "月", d1.Day, "日")
+                strDay = String.Concat("令和元年", d1.Month, "月", d1.Day, "日")
             Else
-                strDay = String.Concat("新元号・德仁（暫定）", iYear, "年", d1.Month, "月", d1.Day + "日")
+                strDay = String.Concat("令和", iYear, "年", d1.Month, "月", d1.Day + "日")
             End If
 
             Return strDay
         End If
 
         ' それ以外
-        strDay = "和暦は明治・大正・昭和・平成・德仁のみ対応しております"
+        strDay = "和暦は明治・大正・昭和・平成・令和のみ対応しております"
 
         Return strDay
 
@@ -177,7 +177,7 @@ Module Seireki2WarekiConversion
         arrTestDate(0) = "2018/12/05"
         arrTestDate(1) = "2018/02/05"
         arrTestDate(2) = "2018/2/5"
-        arrTestDate(3) = "2019/05/01"  ' 新元号
+        arrTestDate(3) = "2019/05/01"  ' 新元号・令和
 
         arrTestDate(4) = "1868/11/30"  ' 明治
         arrTestDate(5) = "1988/12/27"  ' 昭和
