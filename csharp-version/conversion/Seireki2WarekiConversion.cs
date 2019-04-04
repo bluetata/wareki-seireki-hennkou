@@ -134,7 +134,7 @@ namespace csharp_version
                 return strDay;
             }
 
-            // 西暦を変換する（新元号・德仁（暫定））
+            // 西暦を変換する（新元号・令和）
             if (IsDatetimeAfter(d1, new DateTime(2019, 4, 30, 23, 59, 0)))
             {
 
@@ -144,18 +144,18 @@ namespace csharp_version
                 // 日付を返す
                 if (iYear == 1)
                 {
-                    strDay = "新元号・德仁（暫定）元年" + d1.Month + "月" + d1.Day + "日";
+                    strDay = "令和元年" + d1.Month + "月" + d1.Day + "日";
                 }
                 else
                 {
-                    strDay = "新元号・德仁（暫定）" + iYear + "年" + d1.Month + "月" + d1.Day + "日";
+                    strDay = "令和" + iYear + "年" + d1.Month + "月" + d1.Day + "日";
                 }
 
                 return strDay;
             }
 
             // それ以外
-            strDay = "和暦は明治・大正・昭和・平成・德仁のみ対応しております";
+            strDay = "和暦は明治・大正・昭和・平成・令和のみ対応しております";
 
             return strDay;
 
