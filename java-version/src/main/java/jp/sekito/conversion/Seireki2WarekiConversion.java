@@ -144,7 +144,7 @@ public class Seireki2WarekiConversion {
             return strDay;
         }
 
-        // 西暦を変換する（新元号・德仁（暫定））
+        // 西暦を変換する（新元号・令和）
         if (d1.isAfter(LocalDateTime.of(2019, 4, 30, 23, 59))) {
 
             // 西暦から和暦に変換する
@@ -152,16 +152,16 @@ public class Seireki2WarekiConversion {
 
             // 日付を返す
             if (iYear == 1) {
-                strDay = "新元号・德仁（暫定）元年" + d1.getMonthValue() + "月" + d1.getDayOfMonth() + "日";
+                strDay = "令和元年" + d1.getMonthValue() + "月" + d1.getDayOfMonth() + "日";
             } else {
-                strDay = "新元号・德仁（暫定）" + iYear + "年" + d1.getMonthValue() + "月" + d1.getDayOfMonth() + "日";
+                strDay = "令和" + iYear + "年" + d1.getMonthValue() + "月" + d1.getDayOfMonth() + "日";
             }
 
             return strDay;
         }
 
         // それ以外
-        strDay = "和暦は明治・大正・昭和・平成・德仁のみ対応しております";
+        strDay = "和暦は明治・大正・昭和・平成・令和のみ対応しております";
 
         return strDay;
 
@@ -180,7 +180,7 @@ public class Seireki2WarekiConversion {
         testList.add("2018/12/05");
         testList.add("2018/02/05");
         testList.add("2018/2/5");
-        testList.add("2019/05/01");  // 新元号
+        testList.add("2019/05/01");  // 新元号・令和
 
         testList.add("1868/11/30");  // 明治
         testList.add("1988/12/27");  // 昭和
